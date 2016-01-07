@@ -68,8 +68,8 @@ strong {
 
 #align button{
 	margin: 15px 20px;
-	color: mediumturquoise
 	border: 5px outset darkturquoise;
+	color: mediumturquoise;
 }
 
 /* alignment of project pages */
@@ -79,8 +79,8 @@ strong {
 
 #align_link button{
 	margin: 15px 50px;
-	color: mediumturquoise
 	border: 5px outset darkturquoise;
+	color: mediumturquoise;
 }
 
 /* links */
