@@ -33,13 +33,13 @@
 
 #top h1 {
 
-	font: bold 48pt/1.5;
-	color: white;
+	font: bold 100pt/1.5;
+	color: black;
 }
 
 #top h2 {
-	font-size: 32pt/1;
-	color: white;
+	font-size: 80pt/1;
+	color: black;
 }
 
 /* general paragraph */
