@@ -74,9 +74,12 @@ strong {
 /* alignment of project pages */
 #align_link {
 	text-align: center;
+	margin-right: 50px;
+	margin-left: 50px;
 }
 
 #align_link a{
+	text-align: center;
 	color: darkblue;
 	text-decoration: underline;
 	font-size: 32pt;
