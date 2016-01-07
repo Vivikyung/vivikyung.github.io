@@ -76,16 +76,8 @@ strong {
 	text-align: center;
 }
 
-#align_link a{
-	text-align: center;
-	color: darkblue;
-	text-decoration: underline;
-	margin-right: 50px;
-	margin-left: 50px;
-}
-
 big{
-	font-size: 32pt;
+	font-size: 15px;
 }
 
 /* links */
