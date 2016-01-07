@@ -1,0 +1,15 @@
+
+h1 {
+	font-size: 24 pt;
+	font-family: ubuntu, helvetica, arial;
+	font-weight: bold;
+	text-align: center;
+	color: #40dbfd;
+}
+
+h2 {
+	font-size: 16 pt;
+	font: ubuntu, helvetica, arial;
+	text-align: center;
+	color: #82e5fb;
+}
