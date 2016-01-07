@@ -26,7 +26,7 @@
 
 /* for the bottom background */
 body {
-	background-color: lightskyblue;
+	background-color: lightcyan;
 }
 
 
@@ -40,19 +40,19 @@ body {
 
 	font-size: 80px;
 	font-weight: bold;
-	color: mediumblue;
+	color: darkblue;
 }
 
 #top h2 {
 	font-size: 40px;
-	color: dodgerblue;
+	color: mediumblue;
 }
 
 /* general paragraph */
 p {
 	font: 13pt/1 arial, "Times New Roman";
 	text-align: center;
-	color: lightslategray;
+	color: slategray;
 	margin: 20px;
 }
 
@@ -76,7 +76,7 @@ strong {
 	text-align: center;
 }
 
-#align_link p{
+#align_link a{
 	color: darkblue;
 	text-decoration: underline;
 }
