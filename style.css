@@ -79,6 +79,7 @@ strong {
 #align_link a{
 	color: darkblue;
 	text-decoration: underline;
+	font-size: 32pt;
 }
 
 /* links */
