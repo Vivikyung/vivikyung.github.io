@@ -55,6 +55,10 @@ strong {
 	font-size: 14pt;
 }
 
+.align {
+	text-align: center;
+	margin: 10px;
+}
 
 /* links */
 a:link {
