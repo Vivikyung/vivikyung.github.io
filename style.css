@@ -1,15 +1,58 @@
 
-h1 {
-	font-size: 24 pt;
-	font-family: ubuntu, helvetica, arial;
-	font-weight: bold;
-	text-align: center;
-	color: #40dbfd;
+body {
+	background: white url(Columbia.jpg) contain no-repeat top right;
+	opacity: 0.4;
 }
 
-h2 {
-	font-size: 16 pt;
+#top{
 	font: ubuntu, helvetica, arial;
 	text-align: center;
-	color: #82e5fb;
+
 }
+
+#top h1 {
+
+	font: bold 24pt/1.5;
+	color: #40dbfd;
+	margin-top: 50px;
+	margin: 20px;
+}
+
+#top h2 {
+	font-size: 16pt/1;
+	color: #82e5fb;
+	margin: 0px;
+	margin-bottom: 50px;
+}
+
+p {
+	font: 13pt/1 arial, "Times New Roman";
+	text-align: center;
+	color: black;
+	margin: 20px;
+}
+
+strong {
+	font-weight: bold;
+	font-size: 14pt;
+}
+
+a:link {
+	text-decoration: underline;
+	color: blue;
+}
+
+a:active {
+	color: red;
+}
+
+a:hover {
+	color: blue;
+	background-color: yellow;
+}
+
+a:visited {
+	text-decoration: underline;
+	color: purple;
+}
+
