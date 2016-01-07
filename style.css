@@ -81,17 +81,6 @@ strong {
 	border: 5px outset darkturquoise;
 }
 
-#align_link a{
-	color: darkblue;
-	text-decoration: underline;
-	margin-right: 50px;
-	margin-left: 50px;
-}
-
-big{
-	font-size: 32pt;
-}
-
 /* links */
 a:link {
 	text-decoration: underline;
