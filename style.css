@@ -74,10 +74,11 @@ strong {
 /* alignment of project pages */
 #align_link {
 	text-align: center;
+	margin-left: 300px;
 }
 
 big{
-	font-size: 15px;
+	font-size: 40px;
 }
 
 /* links */
