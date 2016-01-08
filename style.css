@@ -103,7 +103,7 @@ a:visited {
 
 canvas {
 	position: absolute;
-	bottom: 0;
-	left: 0;
+	margin-bottom: 0px;
+	margin-left: 0px;
 }
 
