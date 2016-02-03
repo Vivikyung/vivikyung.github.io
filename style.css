@@ -9,19 +9,21 @@
     margin-bottom: 30px;
     position: relative;
     z-index: 2;
-    font-family: helvetica;
+    font-family: 'Trebuchet MS', Helvetica;
 } 
 .backimg h2 {
     margin-bottom: 200px;
     margin-top: 0;
     position: relative;
     z-index: 2;
-    font-family: helvetica;
+    font-family: 'Trebuchet MS', Helvetica;
 } 
 .backimg img {
     position: absolute;
     left: 0;
     top: 0;
+    height: 100%;
+    width: 100%;
     background-size: cover;
     opacity: 0.5;
 }
