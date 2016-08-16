@@ -39,13 +39,6 @@ li a:hover {
     background-color: #111;
 }
 
-/* for the header line */
-#top{
-	font: ubuntu, helvetica, arial;
-	text-align: center;
-	margin-left: 60 px;
-}
-
 /* general paragraph */
 p {
 	font: 13pt/1 arial, "Times New Roman";
@@ -79,23 +72,40 @@ strong {
 	border: 5px outset black;
 }
 
-/* links
-a:link {
-	text-decoration: underline;
-	color: blue;
+
+
+
+/* front page!!! */
+
+/*transparent box*/
+.transbox {
+	margin: 30px;
+ 	background-color: #ffffff;
+ 	border: 1px solid black;
+  	opacity: 0.6;
 }
 
-a:active {
-	color: blue;
+.transbox h1 {
+  	margin: 5%;
+  	color: #000000;
+} 
+
+h1 {
+ 	font: 80px black;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	text-align: center;
+  	letter-spacing: 20px;
+  	white-space: nowrap;
+  	overflow: hidden;
 }
 
-a:hover {
-	color: blue;
-	background-color: lightblue;
-}
 
-a:visited {
-	text-decoration: underline;
-	color: purple;
-}
-*/
+
+
+
+
+
+
+
+
+
