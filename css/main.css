@@ -13,7 +13,7 @@ ul {
 }
 
 li {
-    float: left;
+    float: right;
 }
 
 li a {
@@ -69,7 +69,7 @@ strong {
 	border: 5px outset black;
 }
 
-/* links */
+/* links
 a:link {
 	text-decoration: underline;
 	color: blue;
@@ -88,3 +88,4 @@ a:visited {
 	text-decoration: underline;
 	color: purple;
 }
+*/
