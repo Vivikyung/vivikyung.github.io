@@ -1,70 +1,40 @@
-/* for the top background image */
-.backimg {
-    position: relative;
-    overflow: hidden;
-    border: 5px darkblue;
-}
-.backimg h1 {
-    margin-top: 150px;
-    margin-bottom: 30px;
-    position: relative;
-    z-index: 2;
-    font-family: 'Trebuchet MS', Helvetica;
-} 
-.backimg h2 {
-    margin-bottom: 200px;
-    margin-top: 0;
-    position: relative;
-    z-index: 2;
-    font-family: 'Trebuchet MS', Helvetica;
-} 
-.backimg img {
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    opacity: 0.5;
-}
-
-/* for the bottom background */
+/* for the background */
 body {
 	background-color: white;
 }
 
+/* navigation bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
 
-/* for the header two lines */
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+/* for the header line */
 #top{
 	font: ubuntu, helvetica, arial;
 	text-align: center;
 	margin-left: 60 px;
 }
-
-#top h1 {
-
-	font-size: 80px;
-	font-weight: bold;
-	color: darkblue;
-}
-
-#top h2 {
-	font-size: 40px;
-	color: mediumblue;
-}
-
-/*transparent box*/
-.transbox {
-	margin: 30px;
- 	background-color: #ffffff;
- 	border: 1px solid black;
-  	opacity: 0.6;
-}
-
-.transbox p {
-  margin: 5%;
-  color: #000000;
-} 
 
 /* general paragraph */
 p {
@@ -86,7 +56,7 @@ strong {
 
 #align button{
 	margin: 15px 20px;
-	border: 5px outset darkturquoise;
+	border: 5px outset black;
 }
 
 /* alignment of project pages */
@@ -96,7 +66,7 @@ strong {
 
 #align_link button{
 	margin: 0px 50px;
-	border: 5px outset darkturquoise;
+	border: 5px outset black;
 }
 
 /* links */
@@ -106,12 +76,12 @@ a:link {
 }
 
 a:active {
-	color: red;
+	color: darkblue;
 }
 
 a:hover {
 	color: blue;
-	background-color: yellow;
+	background-color: lightblue;
 }
 
 a:visited {

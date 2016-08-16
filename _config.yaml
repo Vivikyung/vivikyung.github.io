@@ -1,2 +1,4 @@
 name: Vivian Shen, personal
 markdown: kramdown
+
+permalink: /photography/:year/:month/:day/:title
