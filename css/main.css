@@ -119,14 +119,14 @@ strong {
 }
 
 /* Basic background image styling. */
-.front.background-image {
+.background-image {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 /* Styles for the alternating / transition effect. */
-.front.toggle-image {
+.toggle-image {
     position: absolute;
     top: 0;
     left: 0;
@@ -136,43 +136,43 @@ strong {
 }
 
 /* Background image URLs and "stack" order. */
-.front.first-image {
+.first-image {
     background-image: url('/images/kowloon_peak.jpg');
     z-index: -4;
     opacity: 0;
 }
 
-.front.second-image {
+.second-image {
     background-image: url('/images/floating.jpg');
     z-index: -3;
     opacity: 0;
 }
 
-.front.third-image {
+.third-image {
     background-image: url('/images/west_lake.jpg');
     z-index: -2;
     opacity: 0;
 }
 
-.front.fourth-image {
+.fourth-image {
 	background-image: url("/images/yellow_brick_road.jpg");
 	z-index: -1;
 	opacity: 0;
 }
 
-.front.first-image.show {
+.first-image.show {
     opacity: 1;
 }
 
-.front.second-image.show {
+.second-image.show {
     opacity: 1;
 }
 
-.front.third-image.show {
+.third-image.show {
     opacity: 1;
 }
 
-.front.fourth-image.show {
+.fourth-image.show {
     opacity: 1;
 }
 
