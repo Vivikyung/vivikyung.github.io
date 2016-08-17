@@ -54,7 +54,8 @@ strong {
 
 /* alignment of the small buttons */
 #align {
-	text-align: left;
+	text-align: center;
+	margin-bottom:10%;
 }
 
 #align button{
@@ -64,7 +65,7 @@ strong {
 
 /* alignment of project pages */
 #align_link {
-	text-align: left;
+	text-align: center;
 }
 
 #align_link button{
@@ -78,6 +79,20 @@ strong {
 /* front page!!! */
 
 /*transparent box*/
+.front{
+	background-color: red;
+}
+
+.front img {
+	position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    opacity: 0.5;
+}
+
 .front.transbox {
 	background-color: rgba(5,4,2,0.1);
 	width:50%;
