@@ -60,7 +60,7 @@ strong {
 
 #align button{
 	margin: 15px 20px;
-	border: 5px outset black;
+	border: 1px outset black;
 }
 
 /* alignment of project pages */
@@ -70,7 +70,7 @@ strong {
 
 #align_link button{
 	margin: 0px 50px;
-	border: 5px outset black;
+	border: 1px outset black;
 }
 
 
@@ -99,7 +99,7 @@ strong {
 	height:50%;
 	margin-left:auto;
 	margin-right:auto;
-	margin-top:30%;
+	margin-top:25%;
 	margin-bottom:auto;
 	padding:10px; 
 }
@@ -118,12 +118,63 @@ strong {
   	overflow: hidden;
 }
 
+/* Basic background image styling. */
+.front.background-image {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+/* Styles for the alternating / transition effect. */
+.front.toggle-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 800px;
+	transition: opacity 1s ease-in-out;
+}
 
+/* Background image URLs and "stack" order. */
+.front.first-image {
+    background-image: url('/images/kowloon_peak.jpg');
+    z-index: -4;
+    opacity: 0;
+}
 
+.front.second-image {
+    background-image: url('/images/floating.jpg');
+    z-index: -3;
+    opacity: 0;
+}
 
+.front.third-image {
+    background-image: url('/images/west_lake.jpg');
+    z-index: -2;
+    opacity: 0;
+}
 
+.front.fourth-image {
+	background-image: url("/images/yellow_brick_road.jpg");
+	z-index: -1;
+	opacity: 0;
+}
 
+.front.first-image.show {
+    opacity: 1;
+}
+
+.front.second-image.show {
+    opacity: 1;
+}
+
+.front.third-image.show {
+    opacity: 1;
+}
+
+.front.fourth-image.show {
+    opacity: 1;
+}
 
 
 
