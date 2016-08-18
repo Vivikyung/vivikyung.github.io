@@ -28,7 +28,7 @@ li a {
 /* to center things */
 .centered {
   position: fixed;
-  top: 50%;
+  top: 30%;
   left: 50%;
   /* bring your own prefixes */
   transform: translate(-50%, -50%);
@@ -55,7 +55,7 @@ strong {
 /* alignment of the small buttons */
 #align {
 	text-align: center;
-	margin-top:45%;
+	margin-bottom:2%;
 }
 
 #align button{
@@ -99,7 +99,7 @@ strong {
 	height:50%;
 	margin-left:auto;
 	margin-right:auto;
-	margin-top:18%;
+	margin-top:15%;
 	margin-bottom:auto;
 	padding:10px; 
 }
