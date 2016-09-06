@@ -52,26 +52,6 @@ strong {
 	font-size: 14pt;
 }
 
-/* alignment of the small buttons */
-#align {
-	text-align: center;
-	margin-bottom:45%;
-}
-
-#align button{
-	margin: 15px 20px;
-	border: 1px outset black;
-}
-
-/* alignment of project pages */
-#align_link {
-	text-align: center;
-}
-
-#align_link button{
-	margin: 0px 50px;
-	border: 1px outset black;
-}
 
 
 
@@ -179,6 +159,43 @@ strong {
 .fourth-image.show {
     opacity: 1;
 }
+
+
+
+
+/* about page */
+
+/* background color */
+.bg_color {
+    background-color: #aeddf5;
+}
+
+/* alignment of the small buttons */
+#align {
+    text-align: center;
+    margin-bottom:45%;
+}
+
+#align button{
+    margin: 15px 20px;
+    border: 1px outset black;
+}
+
+/* alignment of project pages */
+#align_link {
+    text-align: center;
+}
+
+#align_link button{
+    margin: 0px 50px;
+    border: 1px outset black;
+}
+
+
+
+
+
+
 
 
 
