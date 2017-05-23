@@ -122,41 +122,40 @@ strong {
     z-index: -4;
     opacity: 0;
 }
-
 .second-image {
     background-image: url('/images/floating.jpg');
     z-index: -3;
     opacity: 0;
 }
-
 .third-image {
     background-image: url('/images/west_lake.jpg');
     z-index: -2;
     opacity: 0;
 }
-
 .fourth-image {
 	background-image: url("/images/yellow_brick_road.jpg");
 	z-index: -1;
 	opacity: 0;
 }
 
-.first-image.show {
-    opacity: 1;
-}
+.first-image.show {opacity: 1;}
+.second-image.show {opacity: 1;}
+.third-image.show {opacity: 1;}
+.fourth-image.show {opacity: 1;}
 
-.second-image.show {
-    opacity: 1;
-}
 
-.third-image.show {
-    opacity: 1;
+/************************ABOUT PAGE*************************/
+.me {
+    margin-top: 15%;
+    text-align: center;
 }
-
-.fourth-image.show {
-    opacity: 1;
+.me h1{
+    font-style: bold;
+    font-size: 30px;
 }
-
+.me h2{font-size:20px;}
+.me p{font-size: 15px;}
+.me h3{font-size: 15px;}
 
 
 
