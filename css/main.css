@@ -76,11 +76,7 @@ strong {
 	height:50%;
 	margin-left:auto;
 	margin-right:auto;
-<<<<<<< HEAD
-	margin-top:15%;
-=======
 	margin-top:25%;
->>>>>>> parent of 816c4a5... background img
 	margin-bottom:auto;
 	padding:10px; 
 }
@@ -99,49 +95,6 @@ strong {
   	overflow: hidden;
 }
 
-/* Basic background image styling. */
-.background-image {
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-/* Styles for the alternating / transition effect. */
-.toggle-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 800px;
-	transition: opacity 1s ease-in-out;
-}
-
-/* Background image URLs and "stack" order. */
-.first-image {
-    background-image: url('/images/kowloon_peak.jpg');
-    z-index: -4;
-    opacity: 0;
-}
-.second-image {
-    background-image: url('/images/floating.jpg');
-    z-index: -3;
-    opacity: 0;
-}
-.third-image {
-    background-image: url('/images/west_lake.jpg');
-    z-index: -2;
-    opacity: 0;
-}
-.fourth-image {
-	background-image: url("/images/yellow_brick_road.jpg");
-	z-index: -1;
-	opacity: 0;
-}
-
-.first-image.show {opacity: 1;}
-.second-image.show {opacity: 1;}
-.third-image.show {opacity: 1;}
-.fourth-image.show {opacity: 1;}
 
 
 
