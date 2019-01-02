@@ -5,15 +5,13 @@ body {
 }
 
 /* Intro Paragraph */
-.intro {
-  text-align: right;
-}
-
 .transbox {
+  width: 50%;
   margin-left: 10%;
   background-color: #ffffff;
   opacity: 0.5;
-  width: 50%;
+  word-wrap: break-word;
+  text-align: right;
 }
 
 /* general paragraph */
@@ -59,52 +57,6 @@ li a {
 /* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: #111;
-}
-
-strong {
-	font-weight: bold;
-	font-size: 14pt;
-}
-
-
-/*transparent box*/
-.front{
-	background-color: red;
-}
-
-.front img {
-	position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    opacity: 0.5;
-}
-
-.front.transbox {
-	background-color: rgba(5,4,2,0.1);
-	width:50%;
-	height:50%;
-	margin-left:auto;
-	margin-right:auto;
-	margin-top:25%;
-	margin-bottom:auto;
-	padding:10px; 
-}
-
-.front.transbox h1 {
-  	margin: 5%;
-  	color: #000000;
-} 
-
-.front h1 {
- 	font: 80px black;
-	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-	text-align: center;
-  	letter-spacing: 20px;
-  	white-space: nowrap;
-  	overflow: hidden;
 }
 
 
