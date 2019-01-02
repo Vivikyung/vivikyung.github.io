@@ -6,12 +6,15 @@ body {
 
 /* Intro Paragraph */
 .transbox {
-  width: 50%;
-  margin-left: 10%;
+  width: 40%;
+  margin-left: 20%;
   background-color: #ffffff;
   opacity: 0.5;
   word-wrap: break-word;
   text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /* general paragraph */
