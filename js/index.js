@@ -13,7 +13,7 @@ window.particles = {
     canvas: document.createElement("canvas"),
     
     i: 0,
-    max: 1200,
+    max: 500,
     particles: [],
     
     colors: ["#FFF"],
@@ -127,7 +127,7 @@ window.particles = {
         for (var i = 0, c = self.particles.length; i < c; i++) {
             self.particles[i].update();
         };
-        setTimeout(self.update, 1000 / 30);
+        setTimeout(self.update, 1000 / 80);
     },
     
     fall: function() {
