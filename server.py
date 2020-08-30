@@ -6,13 +6,6 @@ from datetime import datetime
 from datetime import timedelta  
 app = Flask(__name__)
 
-bgs = ["/static/images/sun_icon.png", "/static/images/sun_icon.png", "/static/images/sun_cloudy.png", "/static/images/cloudy.png", "/static/images/sun_cloudy.png", "/static/images/rain.png", "/static/images/thunder.png"]
-
-tripname = ""
-outfit = []
-trips = {}
-currdate = ""
-
 @app.route('/')
 def home():
     return render_template('home.html')
